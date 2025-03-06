@@ -1,0 +1,18 @@
+# Ignorer le dossier des dépendances
+node_modules/
+
+# Ignorer les fichiers d'environnement (éviter de push des données sensibles)
+.env
+
+# Ignorer les logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers générés
+dist/
+build/
